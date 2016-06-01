@@ -1,0 +1,56 @@
+*
+{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+header.header-title
+{
+    color: white;
+    background-color: #06c;
+    
+    position: fixed;
+    top: -60px;
+    left: 0;
+    right: 0;
+    height: 120px;
+    padding-top: 60px;
+    vertical-align: middle;
+}
+
+header.header-title:before
+{
+    content: '\200B';
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle;
+}
+
+h1.header-title
+{
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+div.header-title
+{
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 16px;
+}
+
+body
+{
+	padding-top: 60px;
+}
+
+div.main
+{
+	color: black;
+	background-color: white;
+		
+	padding: 8px;
+}
+
